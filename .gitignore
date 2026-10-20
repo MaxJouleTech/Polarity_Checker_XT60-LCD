@@ -25,6 +25,9 @@ Firmware/*.d
 .vscode/
 .idea/
 
+# PDF datasheets
+*.pdf
+
 # Ignore KiCad history repository
 /KiCad/.history/
 
