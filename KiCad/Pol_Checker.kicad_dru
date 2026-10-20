@@ -1,0 +1,8 @@
+(version 1)
+
+(version 1)
+
+(rule "U1 fine-pitch clearance"
+  (condition "A.intersectsArea('U1_finepitch') && B.intersectsArea('U1_finepitch')")
+  (constraint clearance (min 0.2mm)))
+

@@ -1,0 +1,34 @@
+# KiCad local settings
+**/*.kicad_prl
+
+# KiCad backup files
+**/*.bak
+**/*~
+**/._*
+
+# KiCad temporary files
+**/*.kicad_sch.lck
+**/*.kicad_pcb.lck
+**/*.kicad_pro.lck
+
+# Firmware build output
+Firmware/build/
+Firmware/dist/
+Firmware/*.elf
+Firmware/*.hex
+Firmware/*.bin
+Firmware/*.map
+Firmware/*.o
+Firmware/*.d
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# Ignore KiCad history repository
+/KiCad/.history/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
