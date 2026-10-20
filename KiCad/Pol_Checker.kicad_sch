@@ -5042,16 +5042,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 148.59) (xy 149.86 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0763a854-43e2-48ba-9b9e-9246e95908e5")
-	)
-	(wire
-		(pts
 			(xy 58.42 118.11) (xy 58.42 148.59)
 		)
 		(stroke
@@ -5189,6 +5179,16 @@
 			(type default)
 		)
 		(uuid "20dd80b8-6ffc-4c8a-8235-cd739e6a9e98")
+	)
+	(wire
+		(pts
+			(xy 149.86 137.16) (xy 149.86 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24a0fd90-0d67-44b7-b839-3128ef172b6a")
 	)
 	(wire
 		(pts
@@ -6319,6 +6319,16 @@
 			(type default)
 		)
 		(uuid "c0004287-6446-472e-96f6-a5cb1c7f248b")
+	)
+	(wire
+		(pts
+			(xy 149.86 149.86) (xy 149.86 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c071ba6d-5ffb-4202-8a22-f5ec39390999")
 	)
 	(wire
 		(pts
@@ -8508,7 +8518,7 @@
 		(dnp no)
 		(uuid "217cca99-ea33-4d5a-b9e2-61bca666f2e7")
 		(property "Reference" "C7"
-			(at 149.86 139.7 0)
+			(at 148.844 140.208 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10982,7 +10992,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -11465,7 +11475,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -13244,7 +13254,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -13942,7 +13952,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -14145,7 +14155,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 149.86 138.43 0)
+		(at 149.86 137.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14155,7 +14165,7 @@
 		(dnp no)
 		(uuid "a115943a-02ed-4f7e-8b01-70c65bb9683f")
 		(property "Reference" "#FLG05"
-			(at 149.86 136.525 0)
+			(at 149.86 135.255 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14166,7 +14176,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 147.32 133.35 0)
+			(at 147.32 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14177,7 +14187,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 138.43 0)
+			(at 149.86 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14188,7 +14198,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 138.43 0)
+			(at 149.86 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14199,7 +14209,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 149.86 138.43 0)
+			(at 149.86 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15317,7 +15327,7 @@
 		(dnp no)
 		(uuid "bf09f91d-c643-4479-91b6-4f9094b4e7c6")
 		(property "Reference" "C6"
-			(at 140.97 139.7 0)
+			(at 140.335 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15759,7 +15769,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -15871,7 +15881,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -15983,7 +15993,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
