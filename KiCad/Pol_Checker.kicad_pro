@@ -641,13 +641,13 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Value",
           "name": "Value",
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
           "show": false
@@ -713,10 +713,10 @@
           "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Tolerance",
           "name": "Tolerance",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -728,19 +728,19 @@
           "group_by": true,
           "label": "Price",
           "name": "Price",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
